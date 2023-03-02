@@ -18,3 +18,21 @@ This is a simple UI application that includes a login page, sign up page, quiz p
 5. After completing the quiz, view your report card to see your quiz result.
 ## Credits
 This application was created by Om Prakash Gupta (me) . Feel free to use and modify the code as you see fit. If you have any questions or comments, please feel free to contact me.
+
+## Live Application Link:- 
+## Screenshots of Application
+1. Signup Page
+
+![signup-img](https://res.cloudinary.com/dym57v5kc/image/upload/v1677742959/Salesken-Assignments-pics/Screenshot_6777_o4vauh.png)
+
+2. Login Page
+
+![login-img](https://res.cloudinary.com/dym57v5kc/image/upload/v1677742959/Salesken-Assignments-pics/Screenshot_6778_sqy9ll.png)
+
+3. Quiz Page
+
+![quiz-img](https://res.cloudinary.com/dym57v5kc/image/upload/v1677742959/Salesken-Assignments-pics/Screenshot_6779_mtqkst.png)
+
+4. Report Page
+
+![report-img](https://res.cloudinary.com/dym57v5kc/image/upload/v1677742959/Salesken-Assignments-pics/Screenshot_6780_wmiaos.png)
