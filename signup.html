@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- css file -->
+  <link rel="stylesheet" href="../CSS/signup.css" />
+
+  <title>Signup</title>
+</head>
+
+<body>
+  <!-- container -->
+  <div class="container">
+    <!-- heading -->
+    <h2>Signup to continue</h2>
+
+    <!-- signupForm contain signup form -->
+    <div class="signupForm">
+      <form id="form">
+        <label> Name: </label>
+        <input type="text" id="user_name" required placeholder="Enter Your Name." />
+
+        <label> Email: </label>
+        <input type="email" id="user_email" required placeholder="Enter Your Email" />
+
+        <label> Password: </label>
+        <input type="password" id="user_password" placeholder="Enter Your Password" required />
+
+        <input id="submit" type="submit" value="SIGNUP" />
+      </form>
+
+      <div class="redirectToLogin">
+        <p>Already have Account! </p>
+        <a href="./login.html"> Login </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+<!-- javaScript file -->
+<script src="../JavaScript/signup.js"></script>
+
+</html>

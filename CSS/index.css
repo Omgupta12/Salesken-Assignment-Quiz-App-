@@ -1,0 +1,108 @@
+/*universal-css*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* container-div-css */
+.container {
+  background-color:#a45927;
+  height: 100vh;
+  width: 100vw;
+}
+/* navbar-div-css */
+.navbar {
+  background-color: rgb(234, 232, 238);
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* questionAndOptionsBox-div-css*/
+.questionAndOptionsBox {
+  width: auto;
+  height: 50%;
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  /* border: 1px solid red; */
+}
+
+/* question-div-css */
+.question {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  height: fit-content;
+  padding: 1rem;
+  background-color: white;
+  /* border-radius: 1rem; */
+  font-weight: bolder;
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* question-options-div-css */
+.optionsBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+/* options-div-css */
+.option {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: white;
+  /* border-radius: 1rem; */
+  padding: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* prev and next buttons-div-css */
+.changeQuestionButton {
+  /* float: center;*/
+  /* margin: 2rem;  */
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+/* prev and next buttons-div-css  */
+.changeQuestionButton > button {
+  padding: 0.5rem;
+  background-color: white;
+  color: red;
+  border-radius: 5px;
+  /* border: 2px solid #ee5684; */
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: rgba(240, 235, 235, 0.4) 0px 2px 4px,
+    rgba(231, 225, 225, 0.3) 0px 7px 13px -3px,
+    rgba(237, 231, 231, 0.2) 0px -3px 0px inset;
+}
+
+/* use media query (to make web pages responsive in all screens)*/
+@media only screen and (max-width: 800px) {
+  /* for option-div */
+  .optionsBox {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+}
