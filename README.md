@@ -1,4 +1,4 @@
-# UI Application - Quiz App
+# Quiz App - User Interface
 This is a simple UI application that includes a login page, sign up page, quiz page, and report card page. The user can log in or sign up to the application, take a quiz with multiple-choice questions, and view their quiz result on the report card page. The application uses local storage to store user data and quiz questions and answers.
 
 ## Features
@@ -10,6 +10,7 @@ This is a simple UI application that includes a login page, sign up page, quiz p
 1. HTML/HTML5
 2. CSS/CSS3
 3. JavaScript
+4. LocalStorage
 ## How to use
 1. Clone the repository or download the source code.
 2. Open index.html in your web browser.
@@ -19,7 +20,7 @@ This is a simple UI application that includes a login page, sign up page, quiz p
 ## Credits
 This application was created by Om Prakash Gupta (me) . Feel free to use and modify the code as you see fit. If you have any questions or comments, please feel free to contact me.
 
-## Live Application Link:- 
+## Live Application Link:- https://fanciful-squirrel-060d34.netlify.app/
 ## Screenshots of Application
 1. Signup Page
 
@@ -36,3 +37,5 @@ This application was created by Om Prakash Gupta (me) . Feel free to use and mod
 4. Report Page
 
 ![report-img](https://res.cloudinary.com/dym57v5kc/image/upload/v1677742959/Salesken-Assignments-pics/Screenshot_6780_wmiaos.png)
+
+## Thank you for visiting!
